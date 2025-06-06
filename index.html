@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Anniversary Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Animated Background -->
+        <div class="background">
+            <div class="stars"></div>
+            <div class="floating-elements"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content-wrapper">
+            <div class="message-container">
+                <h1 class="main-title">Happy Anniversary My Love</h1>
+                <div class="message-text">
+                    <p>3 days in Nagpur felt like a dream</p>
+                    <p>Thank you for filling my life with love</p>
+                    <p>Let's bloom together like trees in spring</p>
+                    <p class="highlight">You are my forever, my magic, my everything 💖</p>
+                </div>
+                
+                <div class="surprise-buttons">
+                    <h3>Tap for sweet surprises ✨</h3>
+                    <div class="button-grid">
+                        <button class="surprise-btn" data-message="I love you more than words can say 💖">💝</button>
+                        <button class="surprise-btn" data-message="You make my world magical every single day ✨">⭐</button>
+                        <button class="surprise-btn" data-message="3 days in Nagpur, a lifetime in my heart 💫">🌙</button>
+                        <button class="surprise-btn" data-message="You are my once-in-a-lifetime kind of love 🌈">🦋</button>
+                        <button class="surprise-btn" data-message="I promise to love you forever and ever 🌙">💎</button>
+                        <button class="surprise-btn" data-message="Every moment with you is pure magic 🦋">🌸</button>
+                    </div>
+                </div>
+
+                <button class="collage-btn" onclick="goToCollage()">
+                    View Our Memory Collage
+                    <span class="btn-arrow">→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Message Modal -->
+        <div id="messageModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
